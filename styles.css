@@ -1,3 +1,7 @@
+ul {
+    padding-left: 0;
+}
+
 .accent-bg {
     background-color: #E1EDE6;
 }
@@ -64,7 +68,7 @@ header {
 }
 
 .new-collection-info-bg {
-    background-image: url(/img/new-collection-info-bg.png);
+    background-image: url(/img/pic_bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 574px;
@@ -74,6 +78,14 @@ header {
 .new-collection-info {
     color: #FFF;
     padding-top: 70px;
+}
+
+.new-collection-info button {
+    margin-top: 50px;
+}
+
+.new-collection-info h3 {
+    margin-bottom: 15px;
 }
 
 .new-collection-info-title {
@@ -94,10 +106,6 @@ h3 {
     width: 550px;
 }
 
-footer {
-    height: 168px;
-}
-
 .card-img {
     padding-left: 15px;
     padding-right: 15px;
@@ -109,6 +117,7 @@ footer {
     padding-bottom: 10px;
     padding-left: 88px;
     padding-right: 88px;
+    width: 100%;
 }
 
 .card-border {
@@ -135,5 +144,54 @@ footer {
 
 .footer-list a {
     text-decoration: none;
+    color: #86928B;
+}
+
+.grid-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.btn-group-customize a {
+    margin-left: 40px;
+}
+
+.our-team img {
+   margin-right: 30px; 
+}
+
+.our-team p {
+    width: 550px;
+}
+
+.footer-info {
+    gap: 80px;
+}
+
+.footer-media p {
+    margin-bottom: 0;
+    color: #86928B;
+}
+
+.footer-media-rights {
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: #86928B;  
+}
+
+.footer-media a {
+    margin-right: 20px;
+}
+
+.contacts p {
+    margin-bottom: 0;
+}
+
+.contacts {
+    margin-top: 25px;
+}
+
+.contacts-p-color {
     color: #86928B;
 }
